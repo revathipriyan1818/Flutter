@@ -1,0 +1,12 @@
+import 'dart:io';
+main()
+{
+var a='Hello';
+String b ='World';
+  print(a+' '+b);
+ print("Enter name :");
+  String ans=stdin.readLineSync();
+  print("Hello, $ans! ");
+
+
+}
