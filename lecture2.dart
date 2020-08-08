@@ -1,8 +1,11 @@
 //print largest number in the list
-import 'dart:math';
-
 main() {
-  List<int> number = [6, 2, 3, 4];
-  number.sort();
-  print('Max: ${number.last}');
+  List<int> number = [4, 2, 7, 5, 90];
+  int num = number[0];
+  for (int e in number) {
+    if (e > num) {
+      num = e;
+    }
+  }
+  print(num);
 }
